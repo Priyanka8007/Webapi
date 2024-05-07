@@ -1,0 +1,21 @@
+2024-05-02 00:25:56.023 +05:30 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-02 00:25:56.636 +05:30 [INF] Now listening on: https://localhost:7286
+2024-05-02 00:25:56.639 +05:30 [INF] Now listening on: http://localhost:5049
+2024-05-02 00:25:56.646 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-02 00:25:56.649 +05:30 [INF] Hosting environment: Development
+2024-05-02 00:25:56.651 +05:30 [INF] Content root path: C:\Users\ADMIN\Desktop\c#\NZWalks\NZWalks.API
+2024-05-02 00:25:58.087 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7286/swagger/index.html - -
+2024-05-02 00:25:58.904 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7286/_framework/aspnetcore-browser-refresh.js - -
+2024-05-02 00:25:58.904 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7286/_vs/browserLink - -
+2024-05-02 00:25:58.956 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7286/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 40.2198ms
+2024-05-02 00:25:59.007 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7286/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 102.3023ms
+2024-05-02 00:25:59.009 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7286/swagger/index.html - - - 200 - text/html;charset=utf-8 931.1692ms
+2024-05-02 00:25:59.641 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7286/swagger/v1/swagger.json - -
+2024-05-02 00:26:00.036 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7286/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 394.8604ms
+2024-05-02 00:26:38.116 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7286/api/Walks application/json 208
+2024-05-02 00:26:38.163 +05:30 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.Create (NZWalks.API)'
+2024-05-02 00:26:38.230 +05:30 [INF] Route matched with {action = "Create", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(NZWalks.API.Models.Dto.AddWalkRequestDto) on controller NZWalks.API.Controllers.WalksController (NZWalks.API).
+2024-05-02 00:26:38.939 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-05-02 00:26:38.956 +05:30 [INF] Executed action NZWalks.API.Controllers.WalksController.Create (NZWalks.API) in 708.1901ms
+2024-05-02 00:26:38.966 +05:30 [INF] Executed endpoint 'NZWalks.API.Controllers.WalksController.Create (NZWalks.API)'
+2024-05-02 00:26:38.976 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7286/api/Walks application/json 208 - 200 - text/plain;+charset=utf-8 859.4459ms
